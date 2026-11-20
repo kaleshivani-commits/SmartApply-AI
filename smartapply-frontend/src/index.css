@@ -1,0 +1,43 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f6fb;
+}
+
+header {
+  background: #25316d;
+  color: white;
+  padding: 25px 40px;
+}
+
+header h1 {
+  margin: 0;
+}
+
+main {
+  padding: 30px 40px;
+}
+
+.stats {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin: 25px 0;
+}
+
+.card {
+  background: white;
+  padding: 25px;
+  border-radius: 10px;
+  width: 220px;
+  box-shadow: 0 2px 8px #ddd;
+}
+
+.card h2 {
+  color: #25316d;
+}

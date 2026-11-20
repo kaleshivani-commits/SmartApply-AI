@@ -1,0 +1,31 @@
+# Java / Spring Boot
+target/
+*.class
+*.jar
+*.war
+
+# React / Node
+node_modules/
+dist/
+npm-debug.log*
+
+# API keys and passwords
+.env
+.env.*
+!.env.example
+application-local.properties
+sk-proj-*.txt
+
+# IDE files
+.classpath
+.project
+.settings/
+.metadata/
+.vscode/
+.idea/
+
+# Operating system
+.DS_Store
+Thumbs.db
+
+*.zip
