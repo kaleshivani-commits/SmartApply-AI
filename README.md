@@ -1,160 +1,126 @@
-\# SmartApply AI – Intelligent Job Application Tracker
+# SmartApply AI – Intelligent Job Application Tracker
 
+SmartApply AI is a Java Full Stack web application designed to help job seekers manage, organize, and track their job applications in one place.
 
+The application integrates Google Gemini AI to provide AI-powered assistance with job description analysis.
 
-SmartApply AI is a Java Full Stack web application that helps job seekers manage job applications and prepare for interviews using Gemini AI.
+## Features
 
+### Job Application Management
+- Add new job applications
+- View all saved job applications
+- Edit existing job applications
+- Delete job applications
+- Store application details in MySQL database
 
+### Search and Filtering
+- Search applications
+- Filter applications by status
+- Combine search and status filters
+- Reset search and filters
 
-\## Features
+### Dashboard
+- View job application statistics
+- Track application progress
 
+### AI Integration
+- Google Gemini API integration
+- AI-powered job description analysis
 
+## Technology Stack
 
-\- Dashboard with application statistics
+### Frontend
+- React.js
+- Vite
+- JavaScript
+- HTML5
+- CSS3
+- Axios
 
-\- Add, edit and delete job applications
+### Backend
+- Java 17
+- Spring Boot
+- Spring Data JPA
+- Hibernate
+- Maven
+- REST APIs
 
-\- Search applications by company, job title and location
+### Database
+- MySQL 8
+- MySQL Workbench
 
-\- Filter applications by status
+### AI
+- Google Gemini API
 
-\- AI-powered job description analyzer
-
-\- AI-generated interview questions
-
-\- Interview practice mode
-
-\- MySQL database integration
-
-
-
-\## Technology Stack
-
-
-
-\*\*Frontend\*\*
-
-\- React.js
-
-\- Vite
-
-\- JavaScript
-
-\- Axios
-
-\- CSS
-
-
-
-\*\*Backend\*\*
-
-\- Java 17
-
-\- Spring Boot
-
-\- Spring Data JPA
-
-\- Hibernate
-
-\- REST APIs
-
-
-
-\*\*Database\*\*
-
-\- MySQL 8
-
-
-
-\*\*AI Integration\*\*
-
-\- Google Gemini API
-
-
-
-\## Project Structure
-
-
+## Project Structure
 
 ```text
-
-SmartApplyAI/
-
+SmartApply-AI/
+│
+├── README.md
 ├── smartapply-frontend/
-
-├── \_smartapply-backend/
-
-├── .gitignore
-
-└── README.md
-
+├── _smartapply-backend/
+└── .gitignore
 ```
 
+## Prerequisites
 
+- Java 17
+- Node.js and npm
+- MySQL 8
+- Eclipse IDE
+- Visual Studio Code
 
-\## Running the Project
+## How to Run the Project
 
+### 1. Database Setup
 
+- Start MySQL Server.
+- Create the `smartapply_db` database if it does not already exist.
+- Configure the database connection in the backend configuration.
 
-\### 1. Start MySQL
+### 2. Run the Backend
 
-Make sure your MySQL server is running and the `smartapply\_db` database is available.
+- Open the backend project in Eclipse.
+- Configure your MySQL credentials.
+- Configure the Gemini API key securely.
+- Run the Spring Boot application.
 
+Backend URL:
 
+`http://localhost:8080`
 
-\### 2. Start the Backend
+### 3. Run the Frontend
 
-Open the backend project in Eclipse and run the Spring Boot application.
-
-
-
-Backend URL: `http://localhost:8080`
-
-
-
-\### 3. Start the Frontend
-
-
-
-Open a terminal inside `smartapply-frontend` and run:
-
-
+Open the terminal inside the `smartapply-frontend` folder and execute:
 
 ```bash
-
 npm install
-
 npm run dev
-
 ```
 
+Frontend URL:
 
+`http://localhost:5173`
 
-Frontend URL: `http://localhost:5173`
+## Security
 
+- Keep API keys and database passwords private.
+- Never upload secret credentials to GitHub.
+- Use environment variables or secure configuration for sensitive information.
 
+## Project Objective
 
-\## Environment Variables
+This project demonstrates practical Java Full Stack development skills, including React frontend development, Spring Boot backend development, REST API integration, MySQL database operations, and AI integration.
 
+## Future Enhancements
 
+- User authentication and authorization
+- Resume analysis
+- AI-powered interview preparation
+- Advanced application analytics
 
-Configure these environment variables on your system:
+## Author
 
-
-
-\- `DB\_PASSWORD` – MySQL root password
-
-\- `GEMINI\_API\_KEY` – Google Gemini API key
-
-
-
-Never upload API keys or passwords to GitHub.
-
-
-
-\## Project Purpose
-
-
-
-This project demonstrates practical Java Full Stack development skills, REST API integration, database operations, React frontend development and AI integration.
+Shivani Kale
 
